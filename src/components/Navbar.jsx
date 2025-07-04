@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Link, NavLink } from "react-router-dom";
+import { FaBars } from 'react-icons/fa6';
 import logo from "../assets/u-s-i-s-logo.png";
 
 export const Navbar = () => {
@@ -35,9 +36,13 @@ export const Navbar = () => {
             <img
               src={logo}
               alt="USIS Logo"
-              className="w-[120px] md:w-[110px]"
+              className="w-[80px] md:w-[110px]"
             />
           </Link>
+           <FaBars
+                    
+                    className="block md:hidden text-2xl text-white cursor-pointer"
+                  />
         </div>
 
         {/* Desktop Navigation */}
@@ -66,7 +71,7 @@ export const Navbar = () => {
       <div
         className={`fixed top-0 right-0 h-[100vh] w-[75%] max-w-xs bg-[#1A1A1A] z-50 transform ${
           nav ? "translate-x-0" : "translate-x-full"
-        } transition-transform duration-300 ease-in-out md:hidden flex flex-col p-6`}
+        } transition-transform duration-300 ease-in-out md:hidden flex flex-col p-4 `}
       >
         <button
           onClick={toggleNav}

@@ -40,9 +40,9 @@ function Home() {
                 backgroundPosition: 'center',
               }}
             >
-              <div className="flex md:pt-[4em] flex-col w-full max-w-[700px] text-center md:text-left">
+              <div className="flex md:pt-[4em] flex-col pt-[4em] w-full max-w-[700px] text-center md:text-left">
                 <h1
-                  className="text-white font-spaceGrotesk font-bold text-[36px] md:text-[60px] leading-[45px] md:leading-[75px] mb-4"
+                  className="text-white font-spaceGrotesk font-bold text-[34px] md:text-[60px] leading-[45px] md:leading-[75px] mb-4"
                   data-aos="fade-up"
                 >
                   {slide.title}
@@ -53,7 +53,7 @@ function Home() {
                 >
                   {slide.description}
                 </p>
-                <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
+                <div className="md:flex flex-col sm:flex-row gap-4 justify-center md:justify-start my-4">
                   <a
                     href="#service"
                     className="bg-white text-[#1A1A1A] text-[16px] font-medium px-6 py-3 rounded hover:opacity-90 transition font-manRope"
@@ -62,7 +62,7 @@ function Home() {
                   </a>
                   <Link
                     to="/contact"
-                    className="bg-[#00843D] text-white text-[16px] font-medium px-6 py-3 rounded hover:bg-[#333] transition font-manRope"
+                    className="bg-[#00843D] text-white text-[16px] font-medium mx-2 px-6 py-3 rounded hover:bg-[#333] transition font-manRope"
                   >
                     Contact Us
                   </Link>
