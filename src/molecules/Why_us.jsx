@@ -55,6 +55,17 @@ const WhyChooseUs = () => {
           </div>
         ))}
       </div>
+        <svg
+          className="relative block w-full h-[60px] bg-black"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 1440 320"
+          preserveAspectRatio="none"
+        >
+          <path
+            fill="#ffffff"
+            d="M0,192L60,202.7C120,213,240,235,360,234.7C480,235,600,213,720,192C840,171,960,149,1080,154.7C1200,160,1320,192,1380,208L1440,224V0H0Z"
+          ></path>
+        </svg>
     </section>
   );
 };

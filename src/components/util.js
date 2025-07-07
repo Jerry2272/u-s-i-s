@@ -2,7 +2,7 @@ import bg from '../assets/bg-hero.jpg';
 
 export const HeroSlide = [
   {
-    title: 'Welcome to Unique Steps International',
+    title: 'Welcome to Complete Scholar International',
     description: 'Your partner in unique experiences and events.',
     image: bg,
   },

@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import about from '../assets/about.jpg'
+import about from '../assets/c-s-i-s.jpg'
 
 const About_section = () => {
   return (
@@ -22,16 +22,16 @@ const About_section = () => {
     {/* TEXT CONTENT */}
     <div data-aos="fade-left">
       <h2 className="text-3xl md:text-4xl font-bold text-[#1A1A1A] mb-6">
-        About Unique Steps International School
+        About Complete Scholar International School
       </h2>
       <p className="text-gray-700 text-lg mb-6 leading-relaxed">
-       Unique Steps International School is a co-educational institution committed to raising godly, confident, and intellectually sound learners.
+       Complete Schoolar International School is a co-educational institution committed to raising godly, confident, and intellectually sound learners.
       </p>
       <p className="text-gray-700 text-lg leading-relaxed py-3">
    At the foundation level, we adopt the Montessori method for our Nursery and Primary schools, offering a hands-on, child-centered approach that nurtures curiosity, creativity, and independence.
       </p>
        <p className="text-gray-700 text-lg leading-relaxed">
-        Our Secondary School is built on a strong framework of qualitative education, character development, and academic excellence. With modern facilities and a conducive learning environment, we are dedicated to helping students thrive intellectually, socially, and spiritually. At USIS, every child is known, valued, and empowered to succeed.
+        Our Secondary School is built on a strong framework of qualitative education, character development, and academic excellence. With modern facilities and a conducive learning environment, we are dedicated to helping students thrive intellectually, socially, and spiritually. At Complete Schoolar School, every child is known, valued, and empowered to succeed.
       </p>
 
       <Link

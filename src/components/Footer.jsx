@@ -8,7 +8,7 @@ const Footer = () => {
       <div className="max-w-6xl mx-auto grid md:grid-cols-4 sm:grid-cols-2 gap-10 mb-10">
         {/* School Info */}
         <div>
-          <h3 className="text-xl font-bold mb-4">Unique Steps Int'l School</h3>
+          <h3 className="text-xl font-bold mb-4">Complete Scholar Int'l School</h3>
           <p className="text-sm text-white/80 mb-3">
             A co-educational school with a vision to raise godly, academically excellent young leaders.
           </p>
@@ -16,7 +16,7 @@ const Footer = () => {
             <FaPhoneAlt /> +234 818 891 1553 
           </p>
           <p className="text-sm text-white/70 flex items-center gap-2 mt-1">
-            <FaEnvelope /> uniquestepsintl@yahoo.com
+            <FaEnvelope /> completescholar@yahoo.com
           </p>
         </div>
 
@@ -67,7 +67,7 @@ const Footer = () => {
 
       {/* Bottom copyright */}
       <div className="text-center text-white/60 text-sm border-t border-white/10 pt-6">
-        © {new Date().getFullYear()} Unique Steps Int'l School. All rights reserved.
+        © {new Date().getFullYear()} Complete Scholar Int'l School. All rights reserved.
       </div>
     </footer>
   );
